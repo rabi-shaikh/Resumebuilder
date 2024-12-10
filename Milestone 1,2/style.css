@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3eac2; /* Light beige background */
+    margin: 0;
+    padding: 50px; /* Adjusted padding */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    min-height: 100vh; /* Ensure body takes up full viewport height */
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    max-width: 1200px; /* Set maximum width for better control */
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    gap: 20px; /* Added gap between left and right sections */
+    padding: 20px;
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #8d5524; /* Warm brown */
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #f4a261; /* Soft orange border */
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: #8d5524; /* Brown text for heading */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(244, 162, 97, 0.3); /* Soft orange shadow */
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 0;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    background-color: #f4a261; /* Soft orange background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #e76f51; /* Darker orange on hover */
+}
